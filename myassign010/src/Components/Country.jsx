@@ -2,7 +2,7 @@ import React from 'react'
 
 const Country = ({selectedCountry, setSelectedCountry, setSelectedState}) => {
 
-    const countries = ["India", "USA", "Russiagit"];
+    const countries = ["India", "USA", "Russia"];
 
     const handleCountryChange = (e) => {
         setSelectedCountry(e.target.value);
